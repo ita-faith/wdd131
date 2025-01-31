@@ -1,0 +1,21 @@
+@media (min-width: 768px) {
+    /* Navigation */
+    #menu-button {
+        display: none;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    nav ul li {
+        display: inline;
+    }
+
+    /* Grid Layout for Gallery */
+    .gallery {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
